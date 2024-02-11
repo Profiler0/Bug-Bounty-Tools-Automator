@@ -3,7 +3,6 @@ import os
 
 # List of go install commands for bug bounty tools
 commands = [
-    "go get -u github.com/tomnomnom/assetfinder",
     "go install -v github.com/owasp-amass/amass/v4/...@master",
     "go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest"
     "go install -v github.com/tomnomnom/anew@latest",
@@ -30,6 +29,7 @@ commands = [
     "go install github.com/ThreatUnkown/jsubfinder@latest",
     "go install github.com/Emoe/kxss@latest",
     "go install github.com/tomnomnom/fff@latest"
+    "go get -u github.com/tomnomnom/assetfinder"
 ]
 
 def install_tool(command):
