@@ -2,6 +2,12 @@ Bug-Bounty-Tools-installer-and-Golang-Automator
 
 This script will install 25 bug-bounty-tools written in Golang path. Golang automation tools for bug bounty hunting. Bug bounty hunting is the practice of searching for security vulnerabilities in software and reporting them to the software vendor in exchange for a reward.
 Golang Installation Pre-requisites
+
+Installation Steps 
+1. git clone https://github.com/Profiler0/Bug-Bounty-Tools-Automator.git
+2. cd Bug-Bounty-Tools-Automator
+3. python3 automator.py
+   
 Installation of Go Modules
 sudo apt install golang -y
  go install golang.org/dl/go1.17@latest \n
