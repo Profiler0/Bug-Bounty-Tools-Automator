@@ -4,7 +4,7 @@ import os
 # List of go install commands for bug bounty tools
 commands = [
     "go install -v github.com/owasp-amass/amass/v4/...@master",
-    "go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest"
+    "go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest",
     "go install -v github.com/tomnomnom/anew@latest",
     "go install github.com/projectdiscovery/katana/cmd/katana@latest",
     "go install -v github.com/tomnomnom/anew@latest",
