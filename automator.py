@@ -19,8 +19,6 @@ commands = [
     "go install -v github.com/edoardottt/cariddi/cmd/cariddi@latest",
     "go install github.com/hahwul/dalfox/v2@latest",
     "go install -v github.com/tomnomnom/hacks/filter-resolved@latest",
-    "go install github.com/ffuf/ffuf@latest",
-    "go install https://github.com/takshal/freq",
     "go install github.com/takshal/freq@latest",
     "GO111MODULE=on go install github.com/jaeles-project/gospider@latest",
     "go install github.com/sensepost/gowitness@latest",
